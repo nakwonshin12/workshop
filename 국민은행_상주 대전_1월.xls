@@ -1,0 +1,2069 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>고객사 직원 상담 리스트</title>
+
+
+<!-- meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /-->
+</head>
+
+
+
+
+
+
+
+<body>
+<table border="1">
+    <tr>
+        <th colspan="11">상담리스트</th>
+        <th colspan="13">접수설문지</th>
+        <th colspan="48">사전 검사</th>
+        <th colspan="48">사후 검사</th>
+        <th colspan="28">상담일지 상세 항목</th>
+        <th colspan="11">위기사례보고서</th>
+        <th colspan="4">상담만족도현황</th>
+
+        <th colspan="12">회원가입 기본정보입력 상세</th>
+        <th rowspan="2">keapa직원</th>
+    </tr>
+    <tr>
+        <th width="100">내담자명</th>
+        <th width="100">등록번호</th>
+        <th width="100">사업장</th>
+        <th width="100">사번</th>
+        <th width="100">전화번호</th>
+        <th width="150">이메일</th>
+        <th width="100">상담신청방법</th>
+        <th width="100">상담신청경로</th>
+        <th width="100">상담사유</th>
+        <th width="100">상담주제</th>
+        <th width="100">상담사</th>
+        <th width="100">성별</th>
+        <th width="100">연령</th>
+        <th width="100">결혼상태</th>
+        <th width="100">직급</th>
+        <th width="100">직위</th>
+        <th width="100">지역</th>
+        <th width="100">상담분야</th>
+        <th width="100">상담이용경로(정보출처)</th>
+        <th width="100">상담신청방법</th>
+        <th width="100">상담이용대상</th>
+        <th width="100">자살위험도</th>
+        <th width="100">타살위험도</th>
+        <th width="100">중독위험도</th>
+        <th width="50">1</th>
+        <th width="50">2</th>
+        <th width="50">3</th>
+        <th width="50">4</th>
+        <th width="50">5</th>
+        <th width="50">6</th>
+        <th width="50">7</th>
+        <th width="50">8</th>
+        <th width="50">9</th>
+        <th width="50">10</th>
+        <th width="50">11</th>
+        <th width="50">12</th>
+        <th width="50">13</th>
+        <th width="50">14</th>
+        <th width="50">15</th>
+        <th width="50">16</th>
+        <th width="50">17</th>
+        <th width="50">18</th>
+        <th width="50">19</th>
+        <th width="50">20</th>
+        <th width="50">21</th>
+        <th width="50">22</th>
+        <th width="50">23</th>
+        <th width="50">24</th>
+        <th width="50">25</th>
+        <th width="50">26</th>
+        <th width="50">27</th>
+        <th width="50">28</th>
+        <th width="50">29</th>
+        <th width="50">30</th>
+        <th width="50">31</th>
+        <th width="50">32</th>
+        <th width="50">33</th>
+        <th width="50">34</th>
+        <th width="50">사전core-om총점</th>
+        <th width="50">심각도 체크</th>
+        <th width="1">효과성 검사 위험도 수준</th>
+        <th width="50">효과성검사W</th>
+        <th width="50">P</th>
+        <th width="50">F</th>
+        <th width="50">R</th>
+        <th width="200">EAP효과 vas척도<br />1</th>
+        <th width="50">2</th>
+        <th width="50">3</th>
+        <th width="50">4</th>
+        <th width="50">5</th>
+        <th width="50">6</th>
+        <th width="200">EAP효과 vas척도<br />총점</th>
+        <th width="50">1</th>
+        <th width="50">2</th>
+        <th width="50">3</th>
+        <th width="50">4</th>
+        <th width="50">5</th>
+        <th width="50">6</th>
+        <th width="50">7</th>
+        <th width="50">8</th>
+        <th width="50">9</th>
+        <th width="50">10</th>
+        <th width="50">11</th>
+        <th width="50">12</th>
+        <th width="50">13</th>
+        <th width="50">14</th>
+        <th width="50">15</th>
+        <th width="50">16</th>
+        <th width="50">17</th>
+        <th width="50">18</th>
+        <th width="50">19</th>
+        <th width="50">20</th>
+        <th width="50">21</th>
+        <th width="50">22</th>
+        <th width="50">23</th>
+        <th width="50">24</th>
+        <th width="50">25</th>
+        <th width="50">26</th>
+        <th width="50">27</th>
+        <th width="50">28</th>
+        <th width="50">29</th>
+        <th width="50">30</th>
+        <th width="50">31</th>
+        <th width="50">32</th>
+        <th width="50">33</th>
+        <th width="50">34</th>
+        <th width="50">사후core-om총점</th>
+        <th width="50">심각도 체크</th>
+        <th width="50">효과성 검사 위험도 수준</th>
+        <th width="50">효과성검사W</th>
+        <th width="50">P</th>
+        <th width="50">F</th>
+        <th width="50">R</th>
+        <th width="200">EAP효과 vas척도<br />1</th>
+        <th width="50">2</th>
+        <th width="50">3</th>
+        <th width="50">4</th>
+        <th width="50">5</th>
+        <th width="50">6</th>
+        <th width="200">EAP효과 vas척도<br />총점</th>
+        <th width="100">인증번호</th>
+        <th width="100">상담날짜</th>
+        <th width="100">상담시작시간</th>
+        <th width="100">상담종료시간</th>
+        <th width="100">진행시간</th>
+        <th width="100">참석여부</th>
+        <th width="100">상담형태</th>
+        <th width="100">상담방법</th>
+        <th width="100">상담장소</th>
+        <th width="100">참석동반자</th>
+        <th width="100">인상착의</th>
+        <th width="100">발화</th>
+        <th width="100">비언어적행동관찰</th>
+        <th width="100">상담사와의 상호성</th>
+        <th width="100">주호수문제-내담자보고</th>
+        <th width="100">상담주제-원인</th>
+        <th width="100">상담주제-반응</th>
+        <th width="100">상담목표</th>
+        <th width="100">상담내용</th>
+        <th width="100">상담개입 및 상담사 소견</th>
+        <th width="100">상담성과</th>
+        <th width="100">차기상담방법</th>
+        <th width="100">차기상담날짜</th>
+        <th width="100">차기상담시작시간</th>
+        <th width="100">심리검사실시</th>
+        <th width="100">치료도구활용</th>
+        <th width="100">상담회차</th>
+        <th width="100">상담일지등록일</th>
+        <th width="100">위기사례보고 작성일</th>
+        <th width="100">위기사례선정사유</th>
+        <th width="100">자살사고정도</th>
+        <th width="100">자살계획 및 치명성</th>
+        <th width="100">자해(자살)시도 유무</th>
+        <th width="100">위험요인</th>
+        <th width="100">보호요인</th>
+        <th width="100">위기개입조치</th>
+        <th width="100">상담사소견</th>
+        <th width="100">협회 요청 내용</th>
+        <th width="100">비상연락처</th>
+        <th width="100">만족도 1</th>
+        <th width="100">만족도 2</th>
+        <th width="100">만족도 3</th>
+        <th width="100">전문성 1</th>
+        <th width="100">소속기관</th>
+        <th width="100">직원구분</th>
+        <th width="100">자격구분</th>
+        <th width="100">계산서유형</th>
+        <th width="100">은행명</th>
+        <th width="100">계좌번호</th>
+        <th width="100">주민번호/사업자번호</th>
+        <th width="100">대표자격증</th>
+        <th width="100">(대표자격증) 급수</th>
+        <th width="100">경력</th>
+        <th width="100">발급기관</th>
+        <th width="100">기본상담료</th>
+    </tr>
+    <tr>
+        <td>홍수림</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>3833381</td>
+        <td>010-4035-1370</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>가족 사망 관련</td>
+        <td>Life-부부/가족</td>
+        <td>허보연</td>
+        <td>여</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L0</td>
+        <td>계장</td>
+        <td>대전 세종 충남</td>
+        <td>원가족</td>
+        <td>이용직원추천</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>32</td>	
+        <td></td>
+        <td>안정군</td>
+        <td>6</td>
+        <td>14</td>
+        <td>12</td>
+        <td>0</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>480</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>안정군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-18</td>
+        <td>14:00</td>
+        <td>14:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>검정가디건에 치마 착용</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>신랑 앞에서는 울고싶지 않다.</td>
+        <td>Life-부부/가족</td>
+        <td>정서적 증상-우울</td>
+        <td>자신의 감정에 대한 이해</td>
+        <td>신랑 앞에서는 동생 이야기를 잘 안 하게 된다. 신랑 앞에서 울고 싶지 않다. 공감을 못 하고 차가운 사람이다. 그리고 내가 우는 것을 안 좋아하는 것 같다. </td>
+        <td>남편과의 관계에서 약한 모습을 보여주기 싫어하는 부분에 대한 탐색</td>
+        <td>남편에게 행동은 기대는데, 마음은 기대는 게 안됨.. 남편의 말에 내담자 혼자 판단하고 마음을 닫은 부분이 있음을 인식함.</td>
+        <td>대면</td>
+        <td>2022-02-08</td>
+        <td>14:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1회차</td>
+        <td>2022-01-24</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>홍수림</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>3833381</td>
+        <td>010-4035-1370</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>가족 사망 관련</td>
+        <td>Life-부부/가족</td>
+        <td>허보연</td>
+        <td>여</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L0</td>
+        <td>계장</td>
+        <td>대전 세종 충남</td>
+        <td>원가족</td>
+        <td>이용직원추천</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>0</td>
+        <td>0</td>
+        <td>32</td>	
+        <td></td>
+        <td>안정군</td>
+        <td>6</td>
+        <td>14</td>
+        <td>12</td>
+        <td>0</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>80</td>
+        <td>480</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>안정군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-02-08</td>
+        <td>14:00</td>
+        <td>14:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>목폴라, 카키색 니트, 청바지 착용</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>아빠가 나에게 더 기대는 것 같다. </td>
+        <td>Life-부부/가족</td>
+        <td>정서적 증상-우울</td>
+        <td>아빠에 대한 감정 탐색</td>
+        <td>아빠가 최근 술드시고 동생이름 부르며 미안하고 하고, 자기 가슴을 세게 치시고.. 시비걸고 소리지르고 하셨다. `날 봐줘~`라는 느낌이다. 내가 갔을 때 리엑션이 더 큰 느낌이다. 나에게 더 기대시는 것 같다. 부담스러운데 자식이니까 해야할 것 같다. 근데 부모님 뿐 아니라 다른 사람들에게도 거절을 잘 못하는것 같다. </td>
+        <td>아빠와 거리두고 싶지만 그렇게 하기에 무엇이 두려운지, 무엇 때문에 안되는지에 대한 탐색</td>
+        <td>자신의 감정에 대한 인식</td>
+        <td>대면</td>
+        <td>2022-02-15</td>
+        <td>14:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>2회차</td>
+        <td>2022-02-14</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>박정태</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>2348909</td>
+        <td>010-9562-0000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>미래에 대한 불안감</td>
+        <td>Work-경력개발</td>
+        <td>허보연</td>
+        <td>남</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L3</td>
+        <td>팀장 부장 등</td>
+        <td>대전 세종 충남</td>
+        <td>성격</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>16</td>	
+        <td></td>
+        <td>건강군</td>
+        <td>3</td>
+        <td>5</td>
+        <td>8</td>
+        <td>0</td>
+        <td>90</td>
+        <td>80</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>530</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>건강군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-11</td>
+        <td>13:00</td>
+        <td>13:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>회색 니트 착용.</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>인사이동 후 새로운 팀의 팀장으로 가게 되는 상황인데, 잘할 수 있을 지 걱정이 된다.</td>
+        <td>Work-조직개편(부서, 조직이동 포함)</td>
+        <td>정서적 증상-불안</td>
+        <td>자신의 감정에 대한 이해</td>
+        <td>고객부 팀장으로 가야되는 상황인데, 새로운 곳에서 잘할 수 있을지 걱정이 된다. 사람들이 나에게 기대가 큰데, 기대를 충족시켜주고 싶은 마음이 있다. 윗사람을 실망시키고 싶지 않다. 지금 말이 많은 부서인데, 말이 안나오게 해야할 것 같다. </td>
+        <td>새로가는 부서에서 무엇이 걱정되는지에 대해 구체적인 탐색</td>
+        <td>인사이동을 앞두고 자신이 계속 해오던 고민이 반복됨을 인식함(편하게 살고싶은 마음과 열심히 일하고 위로 올라가고 싶은 마음 사이에서의 갈등), 또한 인정받고 싶은 마음 특히 윗사람에게 인정받고 싶어하는 자신의 욕구를 마주함. </td>
+        <td>대면</td>
+        <td>2022-01-18</td>
+        <td>15:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1회차</td>
+        <td>2022-01-17</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>박정태</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>2348909</td>
+        <td>010-9562-0000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>미래에 대한 불안감</td>
+        <td>Work-경력개발</td>
+        <td>허보연</td>
+        <td>남</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L3</td>
+        <td>팀장 부장 등</td>
+        <td>대전 세종 충남</td>
+        <td>성격</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>16</td>	
+        <td></td>
+        <td>건강군</td>
+        <td>3</td>
+        <td>5</td>
+        <td>8</td>
+        <td>0</td>
+        <td>90</td>
+        <td>80</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>530</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>건강군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-18</td>
+        <td>15:20</td>
+        <td>16:00</td>
+        <td>40분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>회색 폴라니트, 정장바지 착용</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>팀이동을 앞두고 환경변화가 두려움.</td>
+        <td>Work-조직개편(부서, 조직이동 포함)</td>
+        <td>정서적 증상-불안</td>
+        <td>자신의 두려움에 대한 인식</td>
+        <td>이번주 금요일에 팀 이동이 있는데, 환경변화가 두렵다. 변화를 앞두고 과거에 좋았을 때를 돌이켜 본다. 과거에 대해 생각하니 발전적이지 못한 것 같다. 변화가 있을 때마다 걱정이 많은 것 같다. </td>
+        <td>팀이동을 앞두고 드는 걱정과 두려움에 대한  탐색</td>
+        <td>자신의 불안에 대한 인식</td>
+        <td>대면</td>
+        <td>2022-01-25</td>
+        <td>15:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>2회차</td>
+        <td>2022-01-24</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>박정태</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>2348909</td>
+        <td>010-9562-0000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>미래에 대한 불안감</td>
+        <td>Work-경력개발</td>
+        <td>허보연</td>
+        <td>남</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L3</td>
+        <td>팀장 부장 등</td>
+        <td>대전 세종 충남</td>
+        <td>성격</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>16</td>	
+        <td></td>
+        <td>건강군</td>
+        <td>3</td>
+        <td>5</td>
+        <td>8</td>
+        <td>0</td>
+        <td>90</td>
+        <td>80</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>530</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>건강군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-25</td>
+        <td>15:00</td>
+        <td>15:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>흰셔츠에 검정 패딩 조끼 착용</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>인정받고 싶고, 잘하고 싶은 생각이 크다. </td>
+        <td>Work-조직개편(부서, 조직이동 포함)</td>
+        <td>정서적 증상-불안</td>
+        <td>자신의 불안에 대한 이해</td>
+        <td>부서이동 후 요즘 자꾸 자다가 깬다. 깨면 어떻게 운영해야 하나 하는 생각이 든다. 잘하고 싶고, 인정받고 싶은 욕구가 크다. 실패하거나 지적받을까봐 걱정이 된다. </td>
+        <td>내담자의 불안에 대한 구체적 탐색, 불안에 머무르기</td>
+        <td>지금까지 잘 해왔음에도 불구하고 미래에 대한 걱정으로 불안해 함을 인식.</td>
+        <td>대면</td>
+        <td>2022-02-08</td>
+        <td>15:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>3회차</td>
+        <td>2022-01-30</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>박정태</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>2348909</td>
+        <td>010-9562-0000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>미래에 대한 불안감</td>
+        <td>Work-경력개발</td>
+        <td>허보연</td>
+        <td>남</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L3</td>
+        <td>팀장 부장 등</td>
+        <td>대전 세종 충남</td>
+        <td>성격</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>16</td>	
+        <td></td>
+        <td>건강군</td>
+        <td>3</td>
+        <td>5</td>
+        <td>8</td>
+        <td>0</td>
+        <td>90</td>
+        <td>80</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>530</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>건강군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-02-05</td>
+        <td>12:00</td>
+        <td>12:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>TCI검사 실시</td>
+        <td>Work-조직개편(부서, 조직이동 포함)</td>
+        <td>정서적 증상-불안</td>
+        <td>TCI검사를 통한 자신의 기질 및 성격이해</td>
+        <td>TCI검사 실시</td>
+        <td>TCI검사 실시</td>
+        <td>TCI검사 실시</td>
+        <td>대면</td>
+        <td>2022-02-08</td>
+        <td>13:00</td>
+        <td>TCI검사 실시</td>
+        <td>-</td>
+        <td>4회차</td>
+        <td>2022-02-14</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>박정태</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>2348909</td>
+        <td>010-9562-0000</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>미래에 대한 불안감</td>
+        <td>Work-경력개발</td>
+        <td>허보연</td>
+        <td>남</td>
+        <td>40대</td>
+        <td>기혼</td>
+        <td>L3</td>
+        <td>팀장 부장 등</td>
+        <td>대전 세종 충남</td>
+        <td>성격</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>16</td>	
+        <td></td>
+        <td>건강군</td>
+        <td>3</td>
+        <td>5</td>
+        <td>8</td>
+        <td>0</td>
+        <td>90</td>
+        <td>80</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>90</td>
+        <td>530</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>건강군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-02-08</td>
+        <td>13:00</td>
+        <td>13:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>흰색 셔츠에 패딩조끼 착용</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>TCI검사 해석</td>
+        <td>Work-조직개편(부서, 조직이동 포함)</td>
+        <td>정서적 증상-불안</td>
+        <td>TCI 검사를 통한 자신의 기질 및 성격이해</td>
+        <td>TCI 검사결과 해석
+사회적 민감성이 높을것 같았는데, 생각보다 높게 나옴. 연대감이 낮은건 바꾸고 싶은 부분임. 팀장으로써 연대감을 키우기 위해 노력해야 할 것 같음. </td>
+        <td>TCI 검사결과 해석. 상담에서 주로 다뤘던 불안과 내담자가 새롭게 맡게된 팀에서 팀장으로서의 역할을 할 때 자신의 기질 및 성격이 어떻게 작용할 수 있는지 다룸. </td>
+        <td>기존에 상담에서 다룬 부분검사결과 해석을 통해 본인에 대해 좀 더 이해하게 됨. </td>
+        <td>대면</td>
+        <td>2022-02-15</td>
+        <td>16:00</td>
+        <td>TCI검사</td>
+        <td>-</td>
+        <td>5회차</td>
+        <td>2022-02-14</td>
+        <td></td>
+        <td>
+                    </td>
+        <td>무</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td>
+                    </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>정다영</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>3162202</td>
+        <td>010-6617-6783</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>대인관계, 불안</td>
+        <td>Life-관계(갈등)</td>
+        <td>허보연</td>
+        <td>여</td>
+        <td>40대</td>
+        <td>미혼</td>
+        <td>L0</td>
+        <td>계장</td>
+        <td>대전 세종 충남</td>
+        <td>대인관계</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>1</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>63</td>	
+        <td>R</td>
+        <td>주의군</td>
+        <td>7</td>
+        <td>26</td>
+        <td>21</td>
+        <td>9</td>
+        <td>60</td>
+        <td>70</td>
+        <td>60</td>
+        <td>40</td>
+        <td>60</td>
+        <td>50</td>
+        <td>340</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>주의군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-11</td>
+        <td>15:00</td>
+        <td>15:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>검정원피스에 검정가디건 착용</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>내일 인사이동 발표가 있는데, 영업점으로 가게될 것 같아 불안하다. </td>
+        <td>Work-직무적응/적성</td>
+        <td>정서적 증상-불안</td>
+        <td>자신의 불안에 대한 이해</td>
+        <td>내일 인사이동 발표가 있다. 20명 중 12명이 영업점으로 간다고 하는데 나도 가게 될 것 같다. 그래서 일도 손에 안잡힌다. 영업점에 가게 되면 일은 좀 지나면 적응이 될 것 같은데, 현실적인 부분들이 걱정이 된다. </td>
+        <td>인사이동에 대한 두려움 탐색</td>
+        <td>새로운 변화에 대한 두려움을 가지고 있지만, 변화를 통해 또 다른 장점이 있을수도 있음을 인식함으로써 마음이 좀 더 편안해짐. </td>
+        <td>대면</td>
+        <td>2022-01-25</td>
+        <td>14:00</td>
+        <td>-</td>
+        <td>-</td>
+        <td>1회차</td>
+        <td>2022-01-17</td>
+        <td>2022-01-24</td>
+        <td>
+            CORE-OM 단계+총점
+                    </td>
+        <td>유</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+            트라우마 사건경험
+                    </td>
+        <td>
+            가족지지
+                    </td>
+        <td>
+            기타(현재 위기상황은 아님)
+                    </td>
+        <td>작년 사건으로 인해 아직도 소송이 진행중이긴 하지만, 상담을 통해 그 사건으로 인한 감정들을 다루고 소송 과정중에 느끼는 불안과 대처방법에 대해 다루면서 부정적인 감정들이 많이 줄어들었음. 지속적으로 내담자의 감정과 욕구에 집중하면서 부정적인 감정 다루기를 연습하고자 함. </td>
+        <td>없음</td>
+        <td>01066176783</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>정다영</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>3162202</td>
+        <td>010-6617-6783</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>대인관계, 불안</td>
+        <td>Life-관계(갈등)</td>
+        <td>허보연</td>
+        <td>여</td>
+        <td>40대</td>
+        <td>미혼</td>
+        <td>L0</td>
+        <td>계장</td>
+        <td>대전 세종 충남</td>
+        <td>대인관계</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>1</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>63</td>	
+        <td>R</td>
+        <td>주의군</td>
+        <td>7</td>
+        <td>26</td>
+        <td>21</td>
+        <td>9</td>
+        <td>60</td>
+        <td>70</td>
+        <td>60</td>
+        <td>40</td>
+        <td>60</td>
+        <td>50</td>
+        <td>340</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>주의군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-20</td>
+        <td>13:00</td>
+        <td>13:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>TCI 검사 실시</td>
+        <td>Work-직무적응/적성</td>
+        <td>정서적 증상-불안</td>
+        <td>TCI 검사 실시를 통한 자기 이해</td>
+        <td>TCI 검사 실시</td>
+        <td>TCI 검사 실시</td>
+        <td>TCI 검사 실시</td>
+        <td>대면</td>
+        <td>2022-01-25</td>
+        <td>14:00</td>
+        <td>TCI 검사 실시</td>
+        <td>-</td>
+        <td>2회차</td>
+        <td>2022-01-30</td>
+        <td>2022-01-24</td>
+        <td>
+            CORE-OM 단계+총점
+                    </td>
+        <td>유</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+            트라우마 사건경험
+                    </td>
+        <td>
+            가족지지
+                    </td>
+        <td>
+            기타(현재 위기상황은 아님)
+                    </td>
+        <td>작년 사건으로 인해 아직도 소송이 진행중이긴 하지만, 상담을 통해 그 사건으로 인한 감정들을 다루고 소송 과정중에 느끼는 불안과 대처방법에 대해 다루면서 부정적인 감정들이 많이 줄어들었음. 지속적으로 내담자의 감정과 욕구에 집중하면서 부정적인 감정 다루기를 연습하고자 함. </td>
+        <td>없음</td>
+        <td>01066176783</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+    <tr>
+        <td>정다영</td>
+        <td>등록번호</td>
+        <td>국민은행_상주 대전_2022</td>
+        <td>3162202</td>
+        <td>010-6617-6783</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>대인관계, 불안</td>
+        <td>Life-관계(갈등)</td>
+        <td>허보연</td>
+        <td>여</td>
+        <td>40대</td>
+        <td>미혼</td>
+        <td>L0</td>
+        <td>계장</td>
+        <td>대전 세종 충남</td>
+        <td>대인관계</td>
+        <td>기타</td>
+        <td>전화</td>
+        <td>본인</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>없음</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>1</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+        <td>63</td>	
+        <td>R</td>
+        <td>주의군</td>
+        <td>7</td>
+        <td>26</td>
+        <td>21</td>
+        <td>9</td>
+        <td>60</td>
+        <td>70</td>
+        <td>60</td>
+        <td>40</td>
+        <td>60</td>
+        <td>50</td>
+        <td>340</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>무응답</td>
+        <td></td>
+        <td>주의군</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+		<td>0</td>
+        <td></td>
+        <td>2022-01-25</td>
+        <td>14:00</td>
+        <td>14:50</td>
+        <td>50분</td>
+        <td>참석</td>
+        <td>일반</td>
+        <td>대면</td>
+        <td>사내공간(회의실 등)</td>
+        <td>
+                    </td>
+        <td>갈색 원피스에 검정 가디건 착용함.</td>
+        <td>발화량과 발화속도 좋음.</td>
+        <td>눈맞춤이 잘 됨.</td>
+        <td>적극적으로 상담에 임함.</td>
+        <td>사회적 민감성이 높다고 생각했는데 낮게 나온부분이 충격적이다. </td>
+        <td>Work-직무적응/적성</td>
+        <td>정서적 증상-불안</td>
+        <td>TCI검사 해석상담을 통한 자신의 기질 및 성격이해</td>
+        <td>난 평소 사회적민감성이 높다고 생각했는데, 낮게 나온부분이 충격적이다. 또 인내력에서 근면, 끈기가 생각보다 낮게 나온것 같다. 
+</td>
+        <td>TCI 검사해석</td>
+        <td>TCI검사 해석상담을 통한 자신의 기질 및 성격이해</td>
+        <td>대면</td>
+        <td>2022-02-15</td>
+        <td>14:00</td>
+        <td>TCI 검사</td>
+        <td>-</td>
+        <td>3회차</td>
+        <td>2022-01-30</td>
+        <td>2022-01-24</td>
+        <td>
+            CORE-OM 단계+총점
+                    </td>
+        <td>유</td>
+        <td>무</td>
+        <td>무</td>
+        <td>
+            트라우마 사건경험
+                    </td>
+        <td>
+            가족지지
+                    </td>
+        <td>
+            기타(현재 위기상황은 아님)
+                    </td>
+        <td>작년 사건으로 인해 아직도 소송이 진행중이긴 하지만, 상담을 통해 그 사건으로 인한 감정들을 다루고 소송 과정중에 느끼는 불안과 대처방법에 대해 다루면서 부정적인 감정들이 많이 줄어들었음. 지속적으로 내담자의 감정과 욕구에 집중하면서 부정적인 감정 다루기를 연습하고자 함. </td>
+        <td>없음</td>
+        <td>01066176783</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>프리랜서</td>
+        <td>상담실</td>
+        <td>상담사</td>
+        <td>개인사업소득</td>
+        <td>농협</td>
+        <td>'10008556071589'</td>
+        <td>'8309142520611'</td>
+        <td>상담심리사</td>
+        <td>1급</td>
+        <td>10</td>
+        <td>한국상담심리학회</td>
+        <td>60,000</td>
+        <td>박소윤 / 이경애</td>
+    </tr>
+</table>
+</body>
+</html>
